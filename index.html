@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memex 개인정보 처리방침</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+    line-height: 1.7;
+    color: #2c2c2a;
+    background: #f7f3ec;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 { font-size: 26px; color: #4a3c2a; margin-bottom: 4px; }
+  .updated { color: #9a8a72; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 19px; color: #6b5840; margin-top: 36px; margin-bottom: 8px; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .highlight {
+    background: #ece2cf;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  a { color: #8a6d4a; }
+  .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #ddd2c0; color: #9a8a72; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>Memex 개인정보 처리방침</h1>
+<p class="updated">최종 수정일: 2026년 6월 26일</p>
+
+<p>Memex(이하 "본 앱")는 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 본 앱이 어떤 정보를 수집하고 어떻게 이용·보관하는지를 설명합니다.</p>
+
+<div class="highlight">
+<strong>핵심 원칙 — 사진 원본은 기기를 떠나지 않습니다.</strong><br>
+본 앱은 이용자가 선택한 스크린샷·사진의 <strong>원본 이미지를 서버에 저장하지 않습니다.</strong> 글자 인식(OCR)은 이용자의 기기 안에서 처리되며, 서버로는 인식된 텍스트만 전송됩니다.
+</div>
+
+<h2>1. 수집하는 정보</h2>
+<p>본 앱은 회원가입이나 실명 확인 없이 익명으로 이용할 수 있으며, 다음 정보를 처리합니다.</p>
+<ul>
+<li><strong>이용자가 담은 기억의 텍스트</strong> — 스크린샷에서 기기 내에서 인식(OCR)한 글자, 또는 이용자가 직접 입력한 글·메모.</li>
+<li><strong>분류·요약 결과</strong> — 위 텍스트를 바탕으로 생성된 분야·요약·키워드.</li>
+<li><strong>사진첩 원본 위치 정보</strong> — 기기 내 사진을 다시 불러오기 위한 식별자(로컬 포인터). 사진 자체가 아니라 "기기 안 어디에 있는지"를 가리키는 값이며, 기기에만 저장됩니다.</li>
+<li><strong>익명 계정 식별자</strong> — 이용자의 데이터를 구분하기 위해 자동 생성되는 익명 ID. 이름·이메일·전화번호 등 개인을 직접 식별하는 정보는 수집하지 않습니다.</li>
+</ul>
+
+<h2>2. 수집하지 않는 정보</h2>
+<ul>
+<li>사진·스크린샷의 <strong>원본 이미지 파일</strong> (기기에만 보관)</li>
+<li>이름, 이메일, 전화번호, 주소 등 직접적인 개인 식별 정보</li>
+<li>위치 정보, 연락처, 통화 기록 등</li>
+</ul>
+
+<h2>3. 정보의 이용 목적</h2>
+<ul>
+<li>이용자가 담은 기억을 저장하고, 분야별로 분류·요약하여 다시 찾아볼 수 있도록 제공</li>
+<li>검색 기능 제공</li>
+<li>서비스 품질 유지 및 오류 개선</li>
+</ul>
+
+<h2>4. 제3자 처리 (외부 서비스)</h2>
+<p>본 앱은 다음 외부 서비스를 이용하며, 해당 목적에 한해 필요한 정보만 전달합니다.</p>
+<ul>
+<li><strong>Supabase</strong> — 이용자가 담은 텍스트·분류 결과를 저장하는 데이터베이스 서비스.</li>
+<li><strong>Anthropic Claude API</strong> — 텍스트를 분야별로 분류하고 요약하기 위한 AI 처리. <strong>인식된 텍스트만 전송되며, 사진 원본은 전송되지 않습니다.</strong></li>
+</ul>
+<p>위 서비스는 각자의 개인정보 처리방침에 따라 정보를 처리합니다.</p>
+
+<h2>5. 보관 및 삭제</h2>
+<ul>
+<li>이용자가 담은 기억은 이용자가 직접 삭제하기 전까지 보관됩니다.</li>
+<li>앱 내에서 <strong>개별 기억 삭제</strong> 및 <strong>전체 데이터 초기화</strong>가 가능하며, 삭제 시 서버에서도 해당 데이터가 제거됩니다.</li>
+<li>이용자가 데이터를 모두 삭제하면 서버에 보관된 해당 이용자의 정보도 함께 삭제됩니다.</li>
+</ul>
+
+<h2>6. 이용자의 권리</h2>
+<p>이용자는 언제든지 본인이 담은 데이터를 조회·수정·삭제할 수 있습니다. 앱 내 기능을 통해 직접 수행하거나, 아래 연락처로 요청할 수 있습니다.</p>
+
+<h2>7. 아동의 개인정보</h2>
+<p>본 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 해당 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+<h2>8. 방침의 변경</h2>
+<p>본 방침은 법령이나 서비스 변경에 따라 수정될 수 있으며, 변경 시 본 페이지를 통해 공지합니다.</p>
+
+<h2>9. 문의처</h2>
+<p>개인정보 처리에 관한 문의는 아래로 연락해 주시기 바랍니다.</p>
+<ul>
+<li>개발자: 김다슬</li>
+<li>이메일: ektmf3210@gmail.com</li>
+</ul>
+
+<div class="footer">
+© 2026 Memex. 본 방침은 2026년 6월 26일부터 적용됩니다.
+</div>
+
+</body>
+</html>
